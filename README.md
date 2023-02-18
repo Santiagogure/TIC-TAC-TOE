@@ -1,27 +1,23 @@
-# MyApp
+# Tic Tac Toe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+![Tic Tac Toe](https://media.discordapp.net/attachments/613523626230022146/1076624543537451018/image.png?width=406&height=431)
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Tic Tac Toe
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This is a web application for the game Tic Tac Toe (also known as tic tac toe), and it is my first project developed with Angular.
 
-## Build
+The goal of the game is to get three pieces of the same type in a straight line, either vertically, horizontally or diagonally. In this application, players can click on each square of the grid to place their pieces, and the game ends when one of the players manages to align three pieces or when there are no more free squares left to play.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The application also includes a scoring system and the ability to restart the game at any time. In addition, it uses modern styles with the Tailwind CSS library for an attractive visual interface and a good user experience.
 
-## Running unit tests
+Installation and Usage
+To use this application, you must first clone this repository on your local machine and then install the dependencies using the npm install command. Then, you can run the application using the ng serve command and access it in your browser at http://localhost:4200/.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To start a game, simply click on any square in the grid to place your piece. You can restart the game at any time by clicking the "Reset" button that appears at the end of a game.
 
-## Running end-to-end tests
+Contribution
+If you find any bugs or problems in the application, or if you want to add new functionality, feel free to create an issue or submit a pull request in this repository.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
