@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-![Tic Tac Toe](https://media.discordapp.net/attachments/613523626230022146/1076624543537451018/image.png?width=406&height=431)
+![Tic Tac Toe]([https://media.discordapp.net/attachments/613523626230022146/1076624543537451018/image.png?width=406&height=431](https://media.discordapp.net/attachments/613523626230022146/1076625627349794846/image.png?width=464&height=431))
 
 ## Descripción
 
