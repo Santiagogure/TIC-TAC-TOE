@@ -1,0 +1,12 @@
+<div
+  class="text-center cursor-pointer h-full lg:h-full rounded-lg border"
+  (click)="changePlayer()"
+  [ngClass]="{ noClick: gameService.winner }"
+>
+  <h2
+    class="text-yellow-400 text-8xl lg:text-9xl lg:leading-none"
+    [ngClass]="{ 'text-teal-300': gameService.activePlayer == 'O' }"
+  >
+    {{ square.state }}
+  </h2>
+</div>
